@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note li {
+    background-color: #f1f8e9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c8e6c9;
+}
+
+.note h4 {
+    margin: 0 0 10px 0;
+    color: #388e3c;
+}
+
+.note p {
+    margin: 0 0 10px 0;
+}
+
+.note a {
+    color: #1b5e20;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.note a:hover {
+    text-decoration: underline;
+}
+
+form.add-note, form#logout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input[type="text"], form textarea {
+    padding: 10px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+form input[type="submit"]:hover {
+    background-color: #388e3c;
+}
+
+#logout {
+    background-color: #d32f2f;
+}
+
+#logout:hover {
+    background-color: #b71c1c;
+}
